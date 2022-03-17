@@ -17,10 +17,7 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"></noscript>
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -39,13 +36,19 @@
                 
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="https://mobiri.se">Open/Opaque</a></span>
             </div>
-            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.html">Findings</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.html">Readings</a></li></ul>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.html">Findings</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page4.html">All Visualizations</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.html">Readings</a></li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="https://mobiri.se">
-                        Download Now</a></div>
+                
             </div>
         </div>
     </nav>
@@ -59,7 +62,7 @@
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
                 <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Open/Opaque findings</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">Based on dozens of visualizations of use of force datasets, this project comes to four major conclusions about the data available through the Police Open Data Initiative:<br><br>&gt; <a href="page2.html#image2-w" class="text-primary">There is low participation in the initiative</a> &lt;<br>&gt; <a href="page2.html#content5-18" class="text-primary">The datasets available are limited in scope</a> &lt;<br>&gt; <a href="page2.html#image1-1c" class="text-primary">The datasets are inconsistent </a>&lt;<br>&gt; <a href="page2.html#content5-1k" class="text-primary">The data shared raise more questions than answers </a>&lt;<br></h4>
                 
             </div>
         </div>
@@ -75,71 +78,69 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="assets/images/mbr-1076x611.png" alt="Mobirise">
-                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Map</p>
+                    <a href="https://public.tableau.com/views/Alllawenforcementagenciesmap/PolicedepartmentsandparticipationinOpenDataInitiative?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/map-of-participation-in-odi-1076x468.png" alt="Mobirise"></a>
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Map of every police department in the country, with red dots being those that participate in the Open Data Initiative.</p>
                 </div>
             </div>
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
-                        <strong>Map findings</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&nbsp;</p>
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Low participation in Police Data Initiative</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">According to the federal government's <a href="https://www.icpsr.umich.edu/web/NACJD/studies/27681/versions/V1" class="text-primary" target="_blank">2008 Census of State and Local Law Enforcement Agencies</a>, there are 17,986 police departments in the United States. Of those, only around 120 participate in the police data initiative. An even smaller number share their data on use of force and officer involved shooting incidents. The map at the right shows the huge number of individual police departments that blanket the country. The small number of participating agencies, shown in orange, are almost indiscernable.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image1 cid-sX4qdStDOB" id="image1-t">
+<section data-bs-version="5.1" class="content5 cid-t0gZkcBQlG" id="content5-18">
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Police Data Initiative datasets are limited in scope<br></h4>
+                <p class="mbr-text mbr-fonts-style display-7">An examination of use of force datasets shared on the Police Data Initiative reveals that in many cases, the data is not thorough enough to gain meaningful insight into police use of force. For example, the Dallas, TX use of force dataset covers the years from 2016-2020. In the first visualization below, we see that use of force over this period ebbed and flowed, without any major changes in trajectory. The shaded areas, which represent the type of force used over this period, follow this overall pattern. We can contrast this graph with the second one below, representing Cincinnati, OH. In this visualization, we see that over a longer time period, the description of the kind of force used shifted:&nbsp; from 1996-2002, "chemical irritant" was the most common type of force used, but from 2003-2022 the predominant kind of force was described as "taser/beanbag/pepperball/40mm foam." While this might not represent a change in police tactics (pepperball being a form of chemical irritant), it does at least mark a change in how Cincinnati police officers were classifying their force.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image3 cid-t0gYPBQ167" id="image3-17">
     
 
     
 
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
                 <div class="image-wrapper">
-                    <img src="assets/images/mbr-1076x586.png" alt="Mobirise">
-                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4">
-                    Viz 1</p>
-                </div>
-            </div>
-            <div class="col-12 col-lg">
-                <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Visualization 1 findings</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&nbsp;</p>
+                    <a href="https://public.tableau.com/views/Dallas_16473757323170/DallasDescriptionofforceusedovertime?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/dallas-description-of-force-used-over-time-1836x777.png" alt="Visualization of Dallas use of force cases"></a>
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Dallas use of force description over time (2016-2020)</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image2 cid-sX4qfc7w2A" id="image2-u">
+<section data-bs-version="5.1" class="image3 cid-t0hEE2DK4l" id="image3-19">
     
 
     
 
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
                 <div class="image-wrapper">
-                    <img src="assets/images/mbr-1076x605.jpg" alt="Mobirise">
+                    <a href="https://public.tableau.com/views/Cincinnati_16473751537000/Descriptionofuseofforceincidentsovertime?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/cincinnati-description-of-use-of-force-incidents-over-time-1836x675.png" alt="Visualization of Cincinnati use of force over time"></a>
                     <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">
-                        Visualization 2</p>
-                </div>
-            </div>
-            <div class="col-12 col-lg">
-                <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
-                        <strong>Visualization 2 findings</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&nbsp;</p>
+                        Cincinnati description of use of force over time (1996-2022)<br></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image1 cid-sX4qigRvvk" id="image1-v">
+<section data-bs-version="5.1" class="image1 cid-t0hHvqjq9e" id="image1-1c">
     
 
     
@@ -148,16 +149,98 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="assets/images/mbr-1076x973.png" alt="Mobirise">
-                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4">
-                    Visualization 3</p>
+                    <a href="https://public.tableau.com/views/Cincinnati_16473751537000/Racialbreakdownofuseofforceincidents?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/cincinnati-racial-breakdown-of-use-of-force-incidents-1076x773.png" alt="Visualization of Cincinnati use of force cases: officer and subject race"></a>
+                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4">Cincinnati race of officers and subjects involved in use of force incidents</p>
                 </div>
             </div>
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
-                        <strong>Visualization 3 findings</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&nbsp;</p>
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Police Data Initiative datasets are inconsistent (part 1)</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">The amount and type of information collected about the officers and subjects involved in use of force cases varies widely across the datasets available on the Police Data Initiative website. Some datasets include age, race, gender of the subject and officer while others have detailed demographic information for just the subject. In the datasets that have both officer and subject details, we can observe startling disparities like the one at left: in Cincinnati over 50% of the use of force cases involved a black subject and a white officer. In Portland, we can't tell whether there is a similar disparity in officer race, because they don't collect that information. On the other hand, Portland provides data on the officer's tenure, where many other cities do not, showing that newer cops are more often involved in use of force. Indianapolis collects the most subject demographics; race, sex, and age. Black men between the ages of 20-30 make up the largest group of subjects of use of force in that city. The lack of comparable information across datasets makes it difficult to compare use of force across cities or to identify trends common to all data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image5 cid-t0hPXoSI9n" id="image5-1h">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="img-item mb-3">
+                            <a href="https://public.tableau.com/views/Portland_16473766688030/Raceofsubjectandtenureofofficer?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/portland-race-of-subject-and-tenure-of-officer-914x1242.png" alt="Visualization of Portland use of force cases: officer tenure and subject race"></a>
+                            <p class="mbr-fonts-style align-center mt-2 display-4">Portland: tenure of officer and race of subject involved in use of force case</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="img-item mb-3">
+                            <a href="https://public.tableau.com/views/Indianapolis_16473769753410/Allsubjectdemographics?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/indianapolis-all-subject-demographics-1489x790.png" alt="Visualization of Indianapolis use of force cases: subject age, race and sex"></a>
+                            <p class="mbr-fonts-style align-center mt-2 display-4">Indianapolis: Age, race, and gender of subject involved in use of force case<br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image2 cid-t0hUIHoNi0" id="image2-1j">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <a href="https://public.tableau.com/views/Portland_16473766688030/Observedsubjectconditions?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/portland-observed-subject-conditions-1076x609.png" alt="Visualization of conditions observed by police in subjects in use of force cases"></a>
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Portland: conditions observed by police for subjects of use of force</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Police Data Initiative datasets are inconsistent (part 2)</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">Some cities represented in the repository have many more data points for subjects of use of force. The Portland, OR dataset includes yes/no fields for a number of different conditions that might be observed in subjects: if they appear to be transient, under the influence of drugs or alcohol, or experiencing mental health crisis. While this data might be helpful, it is also important to ask what the standards for such observations are and what role the answer to these questions plays in justifying officer use of force.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-t0hX4wEwmv" id="content5-1k">
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Police Data Initiative data raises more questions than answers</h4>
+                <p class="mbr-text mbr-fonts-style display-7">The Portland, OR visualization above raises questions about the reason and meaning behind specific information shared through the Police Data Initiative. Similarly, the visualizations below demonstrate the fact that these datasets often obfuscate rather than reveal. Both graphs show the percent of use of force cases based on the initial "service type" (aka initial reason for the police encounter) and then further broken down by reason for use of force. Dallas, TX data is shown on the left and Indianapolis, IN data is represented on the right. In both cities, "arrest" was the predominant service type for use of force incidents, and within that "arrest" was the most common reason for use of force. This tells us nothing about either the reason for the initial police encounter--arrest is a broad reason that covers everything from littering to murder--and similarly, arrest is not a reason for using force alone. Here, again, the data is opaque despite its supposed openness.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image4 cid-t0hXPA7BPV" id="image4-1l">
+    
+
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <a href="https://public.tableau.com/views/Indianapolis_16473769753410/Servicetypeandreasonforforce?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/indianapolis-service-type-and-reason-for-force-1076x768.png" alt="Visualization showing Indianapolis use of force service type and reason for force"></a>
+                    <p class="mbr-text mbr-fonts-style mt-2 align-center display-4">Indianapolis use of force incidents: initial service request and reason for use of force</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <a href="https://public.tableau.com/views/Dallas_16473757323170/DallasServicetypeandreasonforforce?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="assets/images/dallas-service-type-and-reason-for-force-1066x1242.png" alt="Visualization showing Dallas use of force initial service type and reason for arrest"></a>
+                    <p class="mbr-text mbr-fonts-style mt-2 align-center display-4">Dallas use of force incidents: initial service request and reason for force</p>
                 </div>
             </div>
         </div>
@@ -172,49 +255,15 @@
 
     <div class="container">
         <div class="media-container-row align-center mbr-white">
-            <div class="row row-links">
-                <ul class="foot-menu">
-                    
-                    
-                    
-                    
-                    
-                <li class="foot-menu-item mbr-fonts-style display-7"></li><li class="foot-menu-item mbr-fonts-style display-7"></li><li class="foot-menu-item mbr-fonts-style display-7">Contact</li></ul>
-            </div>
-            <div class="row social-row">
-                <div class="social-list align-right pb-2">
-                    
-                    
-                    
-                    
-                    
-                    
-                <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
-                            <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
-                        </a>
-                    </div><div class="soc-item">
-                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
-                            <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
-                        </a>
-                    </div><div class="soc-item">
-                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
-                            <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
-                        </a>
-                    </div><div class="soc-item">
-                        <a href="https://instagram.com/mobirise" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
-                        </a>
-                    </div></div>
-            </div>
+            
+            
             <div class="row row-copirayt">
                 <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                    © Copyright 2022 Anna Robinson-Sweet. All Rights Reserved.
-                </p>
+                    © Copyright 2022 Anna Robinson-Sweet</p>
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/o" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/r" style="color:#aaa;">This website</a> was created with Mobirise themes</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/o" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/q" style="color:#aaa;">This web page</a> was designed with Mobirise web themes</p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
